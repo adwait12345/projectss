@@ -23,7 +23,7 @@ export default function Subscribers() {
 
     const FetchingSubscribers = async() => {
        
-        const response = await axios.get(`https://adwait-bokade.herokuapp.com/`)
+        const response = await axios.get(`/subscribers`)
         .catch((err) =>{
            console.log("Err",err)
         });
