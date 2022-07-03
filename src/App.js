@@ -10,7 +10,7 @@ import {
   Link
 } from "react-router-dom";
 function App() {
- const url ="/subscribers"
+ const url ="https://adwait-bokade.herokuapp.com/"
   const [data, setData] = useState({
     email:"",
     firstname:"",
